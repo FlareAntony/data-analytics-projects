@@ -1,8 +1,13 @@
-# Python Financial Automation Portfolio
+# Personal Python & Data Automation Portfolio
 
-A collection of high-precision data processing scripts and automation utilities engineered to analyze macroeconomic variables, purchasing power parity, and capital allocation models.
+A centralized showcase of production-grade scripts, high-precision automation utilities, and data purification pipelines engineered to resolve real-world business operation anomalies.
 
-## 📈 System Evolution & Iterative Design: Currency Arbitrage Model
+## 📊 Project Index & Operational Summaries
 
-* **Version 1.0 (The Prototype):** Successfully proved the foundational USD-to-THB conversion math. However, as an operations analyst, I instantly identified a major logical flaw: the system relied on rigid, hard-coded expense variables (e.g., fixed rent) and completely lacked a mechanism for disposable income allocation.
-* **Version 2.0 (The Advanced Upgrade):** To resolve this rigidity, I refactored the entire codebase to accept multi-variable, dynamic user inputs for individual expense categories. I also implemented a custom percentage-based distribution engine to dynamically isolate a local "Fun Money" bucket from the core investment surplus.
+### 1. Enterprise Data Ingestion & Cleansing Engine (`data_cleaner.py`)
+* **The Problem:** Processing highly volatile, manual contractor transaction logs corrupted with human formatting typos, missing values, and fat-finger anomalies.
+* **The Architecture:** Engineered strict input validation blocks (`None` parameters and data type filters), automated string standardizations, and statistical threshold gatekeepers to filter extreme financial outliers before database entry.
+
+### 2. Multi-Variable Currency Arbitrage Calculator (`currency_arbitrage_v2.py`)
+* **The Problem:** Traditional financial scripts rely on rigid, hard-coded overheads that fail when consumer parameters shift across border coordinates.
+* **The Architecture:** Developed a dynamic user input grid for independent expense categories and programmed a custom percentage-based multiplier engine to isolate a local disposable "Fun Money" bucket from the core S&P 500 compounding pipeline.
